@@ -1,0 +1,6 @@
+set sysroot /Users/gotaegeon/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.5/iot-headed/rootstraps/iot-headed-5.5-device.core
+set debug-file-directory /Users/gotaegeon/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.5/iot-headed/rootstraps/iot-headed-5.5-device.core/usr/lib/debug
+set solib-search-path /Users/gotaegeon/Dev/tizen/plaon/Debug
+dir /Users/gotaegeon/tizen-studio/tools/smart-build-interface/../../platforms/tizen-5.5/iot-headed/rootstraps/iot-headed-5.5-device.core/usr/src/debug
+file "/Users/gotaegeon/Dev/tizen/plaon/Debug/plaon"
+sharedlibrary
