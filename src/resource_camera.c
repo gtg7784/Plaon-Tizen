@@ -8,7 +8,6 @@
 #define DEFAULT_CAMERA_IMAGE_HEIGHT 240 //int
 #define DEFAULT_CAMERA_IMAGE_QUALITY 100 //1~100
 
-//	실습 3. 카메라 데이터
 struct __camera_data {
 	camera_h cam_handle;
 
@@ -145,7 +144,6 @@ static void __capturing_cb(camera_image_data_s *image, camera_image_data_s *post
 
 	_D("Now is on Capturing: Image size[%d x %d]", image->width, image->height);
 
-//	실습 6. 이미지 파일 복사
 	memcpy(camera_data->captured_file, image->data, image->size);
 	camera_data->image_size = image->size;
 
@@ -158,7 +156,6 @@ static void __completed_cb(void *user_data) {
 
 	_D("Capture is completed");
 
-//	실습 7. 촬영 종료
 	if (camera_data->capture_completed_cb)
 		camera_data->capture_completed_cb(camera_data->captured_file, camera_data->image_size, camera_data->capture_completed_cb_data);
 
@@ -265,7 +262,6 @@ static int __init(void) {
 		goto ERROR;
 	}
 
-//	실습 4. 카메라 초기화
 	ret = camera_set_preview_cb(camera_data->cam_handle, __camera_preview_cb, camera_data);
 	if (ret != CAMERA_ERROR_NONE) {
 		_E("Failed to set preview callback [%s]", __cam_err_to_str(ret));
@@ -330,7 +326,6 @@ int resource_camera_capture(capture_completed_cb capture_completed_cb, void *use
 		camera_data->is_focusing = false;
 	}
 
-	//	실습 5. 사진 찍기
 	camera_data->capture_completed_cb = capture_completed_cb;
 	camera_data->capture_completed_cb_data = user_data;
 

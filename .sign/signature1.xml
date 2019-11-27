@@ -4,11 +4,11 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>OnyzN7gQEGZXwoAa24/KkI7OCOhrfmGAYH51I3NULzw=</DigestValue>
+<DigestValue>Ard6jNtR1fuBn/+W1Baxan7qlcyOzlQpsu86ifV2xdo=</DigestValue>
 </Reference>
 <Reference URI="bin%2Fplaon">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>Cse7CFrRsGZvIbDVWyF0JkErarWOtibsvrbWCpWYdHQ=</DigestValue>
+<DigestValue>1W45clgLkAqXoDT9dJP96P5gQb+PAdVeytFMPGgTGSM=</DigestValue>
 </Reference>
 <Reference URI="shared%2Fres%2Fplaon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -27,9 +27,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-Ybl9cGrDgOCjufFPPzePrWU+uHTkqCrP/EhQzFPbwN9jtN7mFSb25Vy0T6eSa7J4Q3oWyr8HBjg9
-l2ZM4/8OXloU2VedRYKkQx2CDp554m96IhQISOKFVosSbMm/QWws7YrK4cpu5CgXRs1W2KNvPW1Q
-G9vUBjmNVjkdDkHFnUc=
+gZ83tP48sGIBMpYaaRIkAXb4zHlVI2nxKJAdFofH/b5CwXOTbGa6OXTdgHPIq9t4Czyff1bRk6zx
+dC+BnC2+XBKiz7b83CRRs8RAdV19RmJQm0uF7QymfS4pCXmRFu2utldLWU1pLB7os6I1PHAw6Etg
+AkWOkElQVuHmwQu/Vrc=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

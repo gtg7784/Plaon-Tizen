@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="bin%2Fplaon">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>Cse7CFrRsGZvIbDVWyF0JkErarWOtibsvrbWCpWYdHQ=</DigestValue>
+<DigestValue>1W45clgLkAqXoDT9dJP96P5gQb+PAdVeytFMPGgTGSM=</DigestValue>
 </Reference>
 <Reference URI="shared%2Fres%2Fplaon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -23,9 +23,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-aV3NQY4q4lWIHhD4AIKVDWTY5BBHWoeKpu4FSOR+mPDOz0lwB9zWMpiefAL+gjsQpU/XJiD/OQGn
-ciOdlkklSfQOfticVBpEU7D48rTeFrsQReVCkgk0Xg0X/bg0G4qBjZUcmT41XzbVk/nrFVsserW/
-K7QtNTMrz080fN0maGY=
+lcGPCs14qfuxaX+4g65kZVDKBbAFiU+BnSdc/jsIMwlTP3ABMV0ZrgDdkO1+e4VMGJxuqmsLkfxu
+Jv1xEZDxtfBel/1/V7myxmQbg4xXKLmkyICmqQuao0l7W4BT/0A0MsdmXBptpZjllP7/KkeOw2d/
+5m+am9DoOBvMtIbIJgY=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

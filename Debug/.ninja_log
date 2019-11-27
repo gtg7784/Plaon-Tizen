@@ -2,3 +2,12 @@
 1	438	0	src/resource_camera.o	700b80fc4d5320e9
 1	920	0	src/plaon.o	917288bdd77747a2
 921	1647	0	plaon	488d117b76bb41c4
+3	596	0	src/resource_camera.o	700b80fc4d5320e9
+2	1108	0	src/plaon.o	917288bdd77747a2
+1108	2215	0	plaon	488d117b76bb41c4
+1	9	0	clean_cov	b3de405e02eb7ca8
+9	15	0	clean_sa	46ab9549445ac981
+15	30	0	clean	d59b6dac04fa9b5d
+2	398	0	src/resource_camera.o	700b80fc4d5320e9
+2	960	0	src/plaon.o	917288bdd77747a2
+961	1944	0	plaon	488d117b76bb41c4

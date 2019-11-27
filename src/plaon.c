@@ -30,7 +30,6 @@ static int __image_data_to_file(const char *filename, 	const void *image_data, u
 	char *data_path = NULL;
 	char file[PATH_MAX] = {'\0', };
 
-	//	실습 8. 파일로 저장하기
 	data_path = app_get_data_path();
 
 	snprintf(file, PATH_MAX, "%s%s.jpg", data_path, filename);
@@ -71,7 +70,6 @@ static Eina_Bool _control_interval_event_cb(void *data) {
 	long long int now = __get_monotonic_ms();
 
 	if (now > last_captured_time + CAMERA_CAPTURE_INTERVAL_MS) {
-//		실습 2. 촬영 시작
 		ret = resource_camera_capture(__resource_camera_capture_completed_cb, NULL);
 		if (ret < 0)
 			_E("Failed to capture camera");
@@ -85,7 +83,6 @@ static Eina_Bool _control_interval_event_cb(void *data) {
 static bool service_app_create(void *data) {
 	app_data *ad = (app_data *)data;
 
-	//	실습 1. 타이머 추가
 	ad->event_timer = ecore_timer_add(EVENT_INTERVAL_SECOND, _control_interval_event_cb, ad);
 	if (!ad->event_timer) {
 		_E("Failed to add action timer");
